@@ -1,6 +1,7 @@
 **Clone the repo**
-
+  
 git clone https://github.com/janmesh1814/Loop-AI.git
+
 cd Loop-AI
 
 **Backend setup**
@@ -21,4 +22,5 @@ npm install
 npm start
 
  
+
 
