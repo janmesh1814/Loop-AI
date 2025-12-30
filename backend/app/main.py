@@ -13,7 +13,7 @@ app = FastAPI(title="Restaurant Dashboard API")
 # Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:3000", "https://loop-ai-vert.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
